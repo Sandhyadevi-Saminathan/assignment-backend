@@ -9,7 +9,7 @@ const teamRoutes = require('./Routes/teamRoutes')
 app.use(express.json());
 
 app.use(cors({
-    origin: "*"
+    origin: "https://dancing-treacle-f470d0.netlify.app"
 }))
 
 seedInitialData(); 
