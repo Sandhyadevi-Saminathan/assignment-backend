@@ -12,7 +12,7 @@ app.use(cors({
     origin: "https://dancing-treacle-f470d0.netlify.app"
 }))
 
-seedInitialData(); 
+// seedInitialData(); 
 
 app.use('/user', userRoutes);
 app.use('/team', teamRoutes);
